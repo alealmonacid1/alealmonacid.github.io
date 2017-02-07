@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio Web personal donds estaré subiendo todos mis proyectos">
+  <meta name="author" content="Alejandro Almonacid">
+  <title>Alejandro Almonacid</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGdExflYaX8weKKvCqYnaAutxLUxjYcV8"
+  type="text/javascript"></script>
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset3.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/favicon.ico">
+</head><!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Bienvenidos a mi <span>Web</span></h1>
+            <p class="animated fadeInRightBig">Alejandro Almonacid - Técnico Programador</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Ver más</a>
+          </div>
+        </div>
+        <!-- <div class="item" style="background-image: url(images/slider/2.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Say Hello to <span>Oxygen</span></h1>
+            <p class="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">We are <span>Creative</span></h1>
+            <p class="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
+          </div>
+        </div> -->
+      </div>
+      <!-- <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a> -->
+
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+          </a>                    
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll active"><a href="#home">Inicio</a></li>
+            <li class="scroll"><a href="#services">Servicios</a></li> 
+            <li class="scroll"><a href="#about-us">¿Quien Soy?</a></li>                     
+            <li class="scroll"><a href="#portfolio">Portafolio</a></li>
+            <li class="scroll"><a href="#team">Curriculum</a></li>
+            <!--<li class="scroll"><a href="#blog">Blog</a></li>-->
+            <li class="scroll"><a href="#contact">Contacto</a></li>       
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+  <section id="services">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>Servicios</h2>
+            <p>"Lo más importante es crear algo agradable y comodo para el cliente."</p>
+          </div>
+        </div> 
+      </div>
+      <div class="text-center our-services">
+        <div class="row">
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <i class="fa fa-code"></i>
+            </div>
+            <div class="service-info">
+              <h3>Diseño Web Estático</h3>
+              <p>Realizo sitios web estáticos ideal para pymes, clubes deportivos, proyectos, etc. Estos sitios están desarrollados con HTML5, CSS3, JS, JQuery.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="service-icon">
+              <i class="fa fa-pencil"></i>
+            </div>
+            <div class="service-info">
+              <h3>Capacitación</h3>
+              <p>Realizo capacitación en los siguientes temas:</p>
+              <p>Excel / Diseño / Soporte en Computación</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="service-icon">
+              <i class="fa fa-desktop"></i>
+            </div>
+            <div class="service-info">
+              <h3>Soporte Técnico</h3>
+              <p>Soporte técnico general para computadoras, poseo 3 años de experiencia dentro de este servicio y más de 100 clientes a la fecha.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+            <div class="service-icon">
+              <i class="fa fa-picture-o"></i>
+            </div>
+            <div class="service-info">
+              <h3>Diseño Profesional</h3>
+              <p>Con más de 6 años de experiencia trabajando como diseñador en programas de televisión, eventos discotequeros, fiestas, etc.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+            <div class="service-icon">
+              <i class="fa fa-frown-o"></i>
+            </div>
+            <div class="service-info">
+              <h3>Recuperación de Datos</h3>
+              <p>Muchas veces perdemos información importante debido a "x" motivo, este servicio ayuda a recuperar desde documentos .docx, hasta videos.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+            <div class="service-icon">
+              <i class="fa fa-microphone"></i>
+            </div>
+            <div class="service-info">
+              <h3>Charlas</h3>
+              <p>Seguridad, Ciberbullying, Etc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#services-->
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>¿Quien soy?</h2>
+            <p>Mi nombre es Alejandro Almonacid, 22 años, egresado como Técnico programador en AIEP Curicó, Me considero una persona autodidacta en el tema de la Tecnología de la información. </p>
+            <p>De los 15 a los 18 años comencé a trabajar como fotografo en el programa "Curicó Unido en el Corazón", a los 17 comencé a diseñar para el mismo programa, Diseños que se usaban en Sitios web, Publicidad de marcas auspiciadoras del club, Libros y Diarios.</p>
+            <p>A los 22 Años me matriculé en Aiep, obteniendo como resultado 3 certificaciones MTA y el promedio más alto de mi generación (5.6).</p>
+            <p>También aprovechando el internet y el tiempo, decidí optar por cursos con certificado, obteniendo buenos resultados en 10 de ellos.</p>
+            <p>En la actualidad estoy capacitandome en Ruby on Rails, trabajando en un proyecto personal llamado APTIC y viajando de forma constante a realizar soporte técnico.</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <p class="lead">Experiencia en Soporte Técnico</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="95">95%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <p class="lead">Diseño Web</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="75">75%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <p class="lead">Programación</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="80">80%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <p class="lead">Diseño Gráfico</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="85">85%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <p class="lead">Diversión</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="80">80%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#about-us-->
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <h2>Portafolio</h2>
+        </div>
+      </div> 
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Deportivo Curicó</h3>
+                    <p>Diseño, Desarrollo de Sitio Administrable.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Safepack.cl</h3>
+                    <p>Diseño, Desarrollo de Sitio Estático.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Curicó Albirrojo</h3>
+                    <p>Diseño Gráfico Profesional.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>titu</h3>
+                    <p>desc</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      
+      </div>
+    </div>
+    <div id="portfolio-single-wrap">
+      <div id="portfolio-single">
+      </div>
+    </div><!-- /#portfolio-single-wrap -->
+  </section><!--/#portfolio-->
+ <section id="features" class="parallax">
+    <div class="container">
+      <div class="row count">
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <i class="fa fa-user"></i>
+          <h3 class="timer">115</h3>
+          <p>Clientes Felices</p>
+        </div>
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+          <i class="fa fa-desktop"></i>
+          <h3 class="timer">10</h3>                    
+          <p>Sitios Web Responsivos</p>
+        </div> 
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+          <i class="fa fa-trophy"></i>
+          <h3 class="timer">13</h3>                    
+          <p>Certificaciones</p>
+        </div> 
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
+          <i class="fa fa-comment-o"></i>                    
+          <h3>24/7</h3>
+          <p>Ayuda en Soporte</p>
+        </div>                 
+      </div>
+    </div>
+  </section><!--/#features--><br>
+  <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Curriculum</h2>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/1.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Alejandro Almonacid</h3>
+                <h4>Técnico Programador - CEO APTIC</h4>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/DimAlejandroAsString"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="https://www.twitter.com/elalejo2k16"><i class="fa fa-twitter"></i></a></li>
+                  <li><a class="linkedin" href="https://cl.linkedin.com/in/alejandro-almonacid-erazo-8a29b9b9"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="facebook" href="https://github.com/alealmonacid"><i class="fa fa-github"></i></a></li>
+                  <li><a class="twitter" href="/curriculum.pdf"><i class="fa fa-download"></i></a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+               <div class="member-image">
+                <h1>Certificaciones Microsoft</h1>
+                <div class="row">
+                  <div class="col-sm-6">
+                  <img src="images/MTA1.png" width="100%">
+                  </div>
+                  <div class="col-sm-6">
+                  <img src="images/MTA2.png" width="100%">
+                  </div>
+                  <div class="col-sm-12"><center>
+                  <img src="images/MTA3.png" width="100%">
+                  </center>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <div class="member-image">
+                <h1>Cursos</h1>
+                <div class="row">
+                  <div class="col-sm-12">
+                  <img src="images/activate.png" width="70%">
+                  <h5>2 Cursos realizados</h5>
+                  </div>
+                  <div class="col-sm-12"><center>
+                  <img src="images/eset.png" width="70%">
+                  <h5>8 Cursos realizados</h5>
+                  </center>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>            
+    </div>
+  </section><!--/#team-->
+  <section id="contact">
+    
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Contactame!</h2><!-- 
+            <p>Rellena el formulario ante cualquier duda, juro por Dios que te responderé altiro ♥</p>
+          </div>
+        </div>
+        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="row">
+            <div class="col-sm-6">
+              <form id="main-contact-form" name="contact-form" method="post" action="#">
+                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" placeholder="Nombre" required="required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="subject" class="form-control" placeholder="Asunto" required="required">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Escribe tu mensaje" required="required"></textarea>
+                </div>                        
+                <div class="form-group">
+                  <button type="submit" class="btn-submit">Enviar Ahora</button>
+                </div>
+              </form>   -->
+            </div> 
+            <div class="col-sm-6">
+               <div id="google-map" class="wow fadeIn" data-latitude="-34.977126" data-longitude="-71.243756" data-wow-duration="1000ms" data-wow-delay="400ms"></div>                         
+            </div>
+             <div class="col-sm-6">
+             <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                
+                <ul class="address">
+                  <li><i class="fa fa-map-marker"></i> <span> Dirección:</span> Calle Manuel Rodriguez #1175, Curicó </li>
+                  <li><i class="fa fa-phone"></i> <span> Fono:</span> +56 9 7205 0599  </li>
+                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:alejandroalmonaciderazo21@gmail.com"> alejandroalmonaciderazo21@gmail.com</a></li>
+                  <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.alejandroalmonacid.cl</a></li>
+                </ul>
+              </div>  
+
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>        
+  </section><!--/#contact-->
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li><a class="facebook" href="https://www.facebook.com/DimAlejandroAsString"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="https://www.twitter.com/elalejo2k16"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="linkedin" href="https://cl.linkedin.com/in/alejandro-almonacid-erazo-8a29b9b9"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="facebook" href="https://github.com/alealmonacid"><i class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>&copy; 2016 Alejandro Almonacid.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGdExflYaX8weKKvCqYnaAutxLUxjYcV8"
+  type="text/javascript"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+(function(){ var widget_id = 'U9Ir6PF7fr';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+<!-- {/literal} END JIVOSITE CODE -->
+</body>
+</html>
